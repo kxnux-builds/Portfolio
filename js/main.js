@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
-    
+
     // 1. Mouse Spotlight Effect
     const spotlight = document.querySelector('.mouse-spotlight');
-    
+
     document.addEventListener('mousemove', (e) => {
         // Move the spotlight with a slight delay for smoothness
         spotlight.style.transform = `translate(${e.clientX}px, ${e.clientY}px) translate(-50%, -50%)`;
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
             const target = document.querySelector(this.getAttribute('href'));
-            if(target){
+            if (target) {
                 target.scrollIntoView({ behavior: 'smooth', block: 'start' });
             }
         });
