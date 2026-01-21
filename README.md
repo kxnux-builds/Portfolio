@@ -16,19 +16,6 @@ This project uses a **custom design system** inspired by modern SaaS and develop
 - Interactive **mouse spotlight effect**
 - Subtle micro-interactions & smooth transitions
 
-#### Color System (CSS Variables)
-The design is built on a strict, reusable variable system defined in `style.css`:
-
-```css
-:root {
-    --bg-main: #030712;         /* Deep Navy Black */
-    --bg-secondary: #0f172a;    /* Card Surface */
-    --accent-primary: #6366f1;  /* Indigo Glow */
-    --accent-secondary: #22d3ee;/* Cyan Highlights */
-    --text-main: #f9fafb;       /* High Contrast Text */
-    --text-muted: #9ca3af;      /* Secondary Text */
-}
-
 ---
 
 ## 🌟 Key Features
