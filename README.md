@@ -85,7 +85,7 @@ Recommended: GitHub Pages
 1. Push the repository to `main` on your GitHub account.
 2. In the repository Settings → Pages, set the source to the `main` branch, root.
 3. Your site should be available at:
-   `https://kxnux-builds.github.io/Portfolio/` (or as configured by your account)
+   `https://kxnux-builds.github.io/Portfolio/`
 
 Alternative: any static host (Netlify, Vercel, Surge, Firebase Hosting). Upload the repo contents or follow the provider's deployment flow.
 
@@ -151,27 +151,3 @@ See the LICENSE file for license details:
 [LICENSE](./LICENSE)
 
 ---
-
-## 📂 Folder Structure
-
-The project follows a semantic and clean architecture:
-
-```text
-portfolio/
-│
-├── index.html          # The main entry point
-├── README.md           # Project documentation
-├── .gitignore          # Ignored files for Git
-│
-├── css/
-│   └── style.css       # Combined styles, variables, and animations
-│
-├── js/
-│   └── main.js         # Core logic (Spotlight, Scroll, Mobile Menu)
-│
-├── php/
-│   └── contact.php     # Server-side email handler
-│
-└── assets/
-    └── images/         # Project screenshots, Profile picture
-
