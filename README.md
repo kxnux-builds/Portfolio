@@ -113,20 +113,6 @@ Alternative: any static host (Netlify, Vercel, Surge, Firebase Hosting). Upload 
 
 ---
 
-## Contributing
-
-Contributions, issues and feature requests are welcome.
-
-- Fork the repo
-- Create a feature branch: `git checkout -b feat/awesome-thing`
-- Commit your changes: `git commit -m "feat: add ..." `
-- Push: `git push origin feat/awesome-thing`
-- Open a pull request with a clear description
-
-Please keep PRs small and focused. For design or behavior changes, include before/after screenshots or a short demo.
-
----
-
 ## Todo / Ideas
 
 - Add an automated build pipeline to optimize assets (image optimization, minification).
